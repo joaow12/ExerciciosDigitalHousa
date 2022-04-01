@@ -6,9 +6,9 @@ public class Exercicio4 {
 
 	public static void main(String[] args) {
 		
-		int[] A = new int[15];
-		int[] B = new int[15];
-		int x;
+		double[] A = new double[15];
+		double[] B = new double[15];
+		double x;
 		
 		Scanner leia = new Scanner(System.in);
 		
@@ -17,7 +17,7 @@ public class Exercicio4 {
 			x = leia.nextInt();
 			
 			A[i] = x;
-			B[i] = Math.sqrt();
+			B[i] = Math.sqrt(x);
 		}
 		
 		System.out.println("Vetor A");
